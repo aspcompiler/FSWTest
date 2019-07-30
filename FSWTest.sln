@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSWTest", "FSWTest\FSWTest.csproj", "{A2171D5F-F72A-46D8-A1C1-55F62FA837EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSWTest", "FSWTest\FSWTest.csproj", "{3E17F64C-6D86-446F-A02C-D141C65845F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2171D5F-F72A-46D8-A1C1-55F62FA837EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2171D5F-F72A-46D8-A1C1-55F62FA837EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2171D5F-F72A-46D8-A1C1-55F62FA837EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2171D5F-F72A-46D8-A1C1-55F62FA837EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E17F64C-6D86-446F-A02C-D141C65845F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E17F64C-6D86-446F-A02C-D141C65845F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E17F64C-6D86-446F-A02C-D141C65845F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E17F64C-6D86-446F-A02C-D141C65845F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

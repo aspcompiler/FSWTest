@@ -7,7 +7,12 @@ namespace FSWTest
     {
         static void Main(string[] args)
         {
-            string tmpDir = Environment.GetEnvironmentVariable("TMPDIR");
+            string tmpDir = Environment.GetEnvironmentVariable("TMPDIR")
+                ?? Environment.GetEnvironmentVariable("TEMP")
+                ?? Environment.GetEnvironmentVariable("TMP");
+
+            if (string.IsNullOrEmpty(tmpDir)) throw new Exception("Please set environment variable TMPDIR or TEMP or TMP");
+
             string watchDir = Path.Combine(tmpDir, "FSWTest");
             string filename = DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt";
             string filePath = Path.Combine(watchDir, filename);
